@@ -26,7 +26,7 @@ with st.sidebar:
         "This app uses a machine learning model trained on historical loan data "
         "to predict approval/rejection."
     )
-    st.write("**Model Accuracy:** ~78%")
+    st.write("**Model Accuracy:** ~70%")
     st.write(
         "**Features Used:** Gender, Marital Status, Education, Loan Amount, "
         "Credit History, Total Income, Loan Term."
@@ -123,4 +123,4 @@ if st.button("🚀Check Loan Status", type="primary"):
         st.write("**Model Prediction:**", "Approved" if prediction == 1 else "Rejected")
 
 st.markdown("---")
-st.caption("Built with Streamlit | Model trained on historical loan data")
+st.caption("Made by Alok Maurya | Built with Streamlit | Model trained on historical loan data")
